@@ -1,0 +1,22 @@
+{
+	"llvm-target": "aarch64-unknown-wasp",
+	"data-layout": "e-m:e-i8:8:32-i16:16:32-i64:64-i128:128-n32:64-S128",
+	"arch": "aarch64",
+	"target-endian": "little",
+	"target-pointer-width": "64",
+	"target-c-int-width": "32",
+	"os": "none",
+	"executables": true,
+	"linker-flavor": "ld.lld",
+	"linker": "rust-lld",
+	"panic-strategy": "abort",
+	"target_family": "windows",
+	"is_like_windows": true,
+	"is_like_msvc": true,
+	"crt_static_allows_dylibs": true,
+	"crt_static_respected": true,
+	"abi_return_struct_as_int": true,
+	"emit_debug_gdb_scripts": false,
+	"requires_uwtable": true,
+	"exe_suffix": ".exe"
+}
