@@ -1,0 +1,11 @@
+[package]
+name = "wasp"
+version = "0.1.0"
+authors = ["Ishimoto Shinobu <nagakamira@gmail.com>"]
+edition = "2018"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
