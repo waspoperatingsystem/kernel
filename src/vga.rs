@@ -1,5 +1,5 @@
 pub fn welcome() {
-	static HELLO: &[u8] = b"Loading wasp";
+	static HELLO: &[u8] = b"Welcome to waspOS!";
 	let vga_buf = 0xb8000 as *mut u8;
 
 	for (i, &byte) in HELLO.iter().enumerate() {
