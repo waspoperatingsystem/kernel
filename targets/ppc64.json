@@ -7,7 +7,7 @@
 	"target-c-int-width": "32",
 	"os": "wasp",
 	"executables": true,
-	"linker-flavor": "gcc",
+	"linker-flavor": "ld.lld",
 	"linker": "rust-lld",
 	"panic-strategy": "abort",
 	"target_family": "unix",

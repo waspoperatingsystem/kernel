@@ -5,7 +5,7 @@ pub fn welcome() {
 	for (i, &byte) in HELLO.iter().enumerate() {
 		unsafe {
 			*vga_buf.offset(i as isize * 2) = byte;
-			*vga_buf.offset(i as isize * 2 + 1) = 0x4;
+			*vga_buf.offset(i as isize * 2 + 1) = 0xf;
 		}
 	}
 }
