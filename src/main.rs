@@ -1,3 +1,5 @@
+/*	$waspOS: main.rs,v 1.0 2020/05/14 00:00:00 protonesso Exp $	*/
+
 // Inspired by this https://os.phil-opp.com/freestanding-rust-binary/
 #![no_std]
 #![no_main]

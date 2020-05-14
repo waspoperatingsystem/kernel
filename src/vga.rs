@@ -1,3 +1,5 @@
+/*	$waspOS: main.rs,v 1.0 2020/05/14 00:00:00 protonesso Exp $	*/
+
 pub fn welcome() {
 	static HELLO: &[u8] = b"Welcome to waspOS!";
 	let vga_buf = 0xb8000 as *mut u8;
